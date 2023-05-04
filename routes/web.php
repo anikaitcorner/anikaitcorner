@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PriceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +19,15 @@ use Illuminate\Support\Facades\Route;
 
 // home routes
 Route::get('/', [HomeController::class, "index"])->name("home");
+// price routes
+Route::apiResource("/price", PriceController::class)->names([
+  "index" => "price"
+]);
+// about routes
+Route::apiResource("/about", AboutController::class)->names([
+  "index" => "about"
+]);
+// contact routes
+Route::apiResource("/contact", ContactController::class)->names([
+  "index" => "contact"
+]);
