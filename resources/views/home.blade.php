@@ -195,145 +195,35 @@
           <!-- row start -->
           <div class="row x-gap-72 y-gap-72 md:mt-48">
 
-            <div class="col-md-6">
-              <div class="ml-minus-4">
-                <div class="d-flex align-items-center">
-                  <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" class="feather feather-edit size-sm str-width-md text-accent">
-                      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <h3 class="text-2xl fw-500 mt-32">
-                Web Design
-              </h3>
-              <p class="mt-12">
-                Consider the vast of science and the doctrine of evolution. Every years beast.
-              </p>
-              <div class="mt-16">
-                <a data-barba="" href="#" class="button -icon text-black">
-                  Know More
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
+            @foreach ($services as $item)
+              <div class="col-md-6">
+                <div class="ml-minus-4">
+                  <div class="d-flex align-items-center">
+                    <div class="px-20 py-20 bg-white shadow-light rounded-full">
 
-            <div class="col-md-6">
-              <div class="ml-minus-4">
-                <div class="d-flex align-items-center">
-                  <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" class="feather feather-sliders size-sm str-width-md text-accent">
-                      <line x1="4" y1="21" x2="4" y2="14"></line>
-                      <line x1="4" y1="10" x2="4" y2="3"></line>
-                      <line x1="12" y1="21" x2="12" y2="12"></line>
-                      <line x1="12" y1="8" x2="12" y2="3"></line>
-                      <line x1="20" y1="21" x2="20" y2="16"></line>
-                      <line x1="20" y1="12" x2="20" y2="3"></line>
-                      <line x1="1" y1="14" x2="7" y2="14"></line>
-                      <line x1="9" y1="8" x2="15" y2="8"></line>
-                      <line x1="17" y1="16" x2="23" y2="16"></line>
-                    </svg>
+                      <i class="{{ $item->icon }}"></i>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <h3 class="text-2xl fw-500 mt-32">
-                Branding
-              </h3>
-              <p class="mt-12">
-                Consider the vast of science and the doctrine of evolution. Every years beast.
-              </p>
-              <div class="mt-16">
-                <a data-barba="" href="#" class="button -icon text-black">
-                  Know More
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="ml-minus-4">
-                <div class="d-flex align-items-center">
-                  <div class="px-20 py-20 bg-white shadow-light rounded-full">
+                <h3 class="text-2xl fw-500 mt-32">
+                  {{ $item->name }}
+                </h3>
+                <p class="mt-12">
+                  {{ $item->desc }}
+                </p>
+                <div class="mt-16">
+                  <a data-barba="" href="services/{{ $item->slug }}" class="button -icon text-black">
+                    Know More
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                       fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" class="feather feather-feather size-sm str-width-md text-accent">
-                      <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
-                      <line x1="16" y1="8" x2="2" y2="22"></line>
-                      <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                      stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
                     </svg>
-                  </div>
+                  </a>
                 </div>
               </div>
-              <h3 class="text-2xl fw-500 mt-32">
-                Mobile Apps
-              </h3>
-              <p class="mt-12">
-                Consider the vast of science and the doctrine of evolution. Every years beast.
-              </p>
-              <div class="mt-16">
-                <a data-barba="" href="#" class="button -icon text-black">
-                  Know More
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="ml-minus-4">
-                <div class="d-flex align-items-center">
-                  <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" class="feather feather-move size-sm str-width-md text-accent">
-                      <polyline points="5 9 2 12 5 15"></polyline>
-                      <polyline points="9 5 12 2 15 5"></polyline>
-                      <polyline points="15 19 12 22 9 19"></polyline>
-                      <polyline points="19 9 22 12 19 15"></polyline>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <line x1="12" y1="2" x2="12" y2="22"></line>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <h3 class="text-2xl fw-500 mt-32">
-                Motion
-              </h3>
-              <p class="mt-12">
-                Consider the vast of science and the doctrine of evolution. Every years beast.
-              </p>
-              <div class="mt-16">
-                <a data-barba="" href="#" class="button -icon text-black">
-                  Know More
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
+            @endforeach
 
           </div>
           <!-- row end -->
