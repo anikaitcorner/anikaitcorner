@@ -1,0 +1,25 @@
+:root {
+    --primary-color: red;
+}
+
+a.tag-cloud-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    padding: 1rem 0.625rem;
+    background-color: rgb(18 18 18);
+    transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+        background-color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    color: #c5c5c5;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+a.tag-cloud-link:hover {
+    color: white;
+    background-color: var(--primary-color);
+}

@@ -21,6 +21,24 @@ class MenuItemSeeder extends Seeder
                 "menu_id" => 1,
             ],
             [
+                "label" => "Pricing",
+                "route" => "price",
+                "slug" => "/price",
+                "menu_id" => 1,
+            ],
+            [
+                "label" => "About",
+                "route" => "about",
+                "slug" => "/about",
+                "menu_id" => 1,
+            ],
+            [
+                "label" => "Contact",
+                "route" => "contact",
+                "slug" => "/contact",
+                "menu_id" => 1,
+            ],
+            [
                 "label" => "Linkedin",
                 "route" => null,
                 "slug" => "#",

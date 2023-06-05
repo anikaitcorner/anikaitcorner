@@ -17,7 +17,9 @@ class DatabaseSeeder extends Seeder
             MenuSeeder::class,
             MenuItemSeeder::class,
             InfoSeeder::class,
-            ServiceSeeder::class
+            ServiceSeeder::class,
+            ProjectCategorySeeder::class,
+            ProjectSeeder::class
         ]);
     }
 }

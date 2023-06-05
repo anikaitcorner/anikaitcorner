@@ -1,3 +1,8 @@
+<!-- data -->
+@php
+  $project_categories = json_decode($project_categories);
+@endphp
+
 @component('layouts.app')
   <!-- hero section start -->
   <section data-speed="1200" data-autoplay-delay="2900"
@@ -12,83 +17,22 @@
             <div class="slider__content  is-active  js-slider-content">
               <div data-split="lines">
                 <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
-                  Design Inspiration
+                  Root Over Flow
                 </p>
               </div>
               <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
                 <h1 class="slider__title fw-700 leading-xs js-title">
-                  Growing brands through strategy, innovation and creativity.
+                  Digital Solutions Made Simple
                 </h1>
               </div>
               <div class="slider__button overflow-hidden mt-32">
                 <div class="js-button py-4">
-                  <a href="#" class="button -md -black text-white">
+                  <a href="{{ route('contact') }}" class="button -md -black text-white">
                     get in touch
                   </a>
                 </div>
               </div>
             </div>
-
-            <div class="slider__content  js-slider-content">
-              <div data-split="lines">
-                <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
-                  Creating what matters
-                </p>
-              </div>
-              <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
-                <h1 class="slider__title fw-700 leading-xs js-title">
-                  Whatever the challenge, we always deliver a solution.
-                </h1>
-              </div>
-              <div class="slider__button overflow-hidden mt-32">
-                <div class="js-button py-4">
-                  <a href="#" class="button -md -black text-white">
-                    get in touch
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="slider__content  js-slider-content">
-              <div data-split="lines">
-                <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
-                  Design Inspiration
-                </p>
-              </div>
-              <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
-                <h1 class="slider__title fw-700 leading-xs js-title">
-                  We create modern experiences for tomorrow’s brands.
-                </h1>
-              </div>
-              <div class="slider__button overflow-hidden mt-32">
-                <div class="js-button py-4">
-                  <a href="#" class="button -md -black text-white">
-                    get in touch
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="slider__content  js-slider-content">
-              <div data-split="lines">
-                <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
-                  Creating what matters
-                </p>
-              </div>
-              <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
-                <h1 class="slider__title fw-700 leading-xs js-title">
-                  A reliable, professional agency and startup studio.
-                </h1>
-              </div>
-              <div class="slider__button overflow-hidden mt-32">
-                <div class="js-button py-4">
-                  <a href="#" class="button -md -black text-white">
-                    get in touch
-                  </a>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
 
@@ -103,33 +47,6 @@
                 </div>
 
                 <div class="slider__img__cover js-image-cover"></div>
-
-                <div class="slider__img__bg bg-dark-1"></div>
-              </div>
-
-              <div class="swiper-slide overflow-hidden">
-                <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
-                  <div data-parallax-target class="bg-image swiper-lazy js-image"
-                    data-background="img/headers/home-1-slider/2.jpg"></div>
-                </div>
-
-                <div class="slider__img__bg bg-dark-1"></div>
-              </div>
-
-              <div class="swiper-slide overflow-hidden">
-                <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
-                  <div data-parallax-target class="bg-image swiper-lazy js-image"
-                    data-background="img/headers/home-1-slider/3.jpg"></div>
-                </div>
-
-                <div class="slider__img__bg bg-dark-1"></div>
-              </div>
-
-              <div class="swiper-slide overflow-hidden">
-                <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
-                  <div data-parallax-target class="bg-image swiper-lazy js-image"
-                    data-background="img/headers/home-1-slider/4.jpg"></div>
-                </div>
 
                 <div class="slider__img__bg bg-dark-1"></div>
               </div>
@@ -166,6 +83,98 @@
   </section>
   <!-- hero section end -->
 
+  <!-- Skills Slider start -->
+  <section class="py-24 mt-72">
+    <div data-cursor data-cursor-label="DRAG" class="overflow-hidden js-section-slider"
+      data-slider-col="base-16 lg-7 md-5 sm-3" data-pagination data-loop data-swiper-autoplay>
+      <div class="swiper-wrapper"">
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">JavaScript</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">jQuery</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Tailwind CSS</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">BootStrap</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Reactjs</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Nextjs</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">TypeScript</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Material UI</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Redux</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">React Context</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">JSON</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Rest API</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Mongoose</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Firebase</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">PHP</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Laravel</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Nodejs</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">MySQL</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Sanity.io</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Barbajs</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">GSAP</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Framer Motion</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">AI Tech</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Wordpress</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">PWA</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">React Native</a>
+        </div>
+        <div class="swiper-slide">
+          <a class="tag-cloud-link">Android Studio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Slider End -->
+
+
   <!-- services section start -->
   <section class="layout-pt-lg layout-pb-lg">
     <!-- container start -->
@@ -182,7 +191,7 @@
               Passionate &amp; Flexible
             </h2>
             <p class="mt-20">
-              Moving you every years beast to be made, fowl whales land seasons air set let.
+              Discover our diverse range of digital solutions tailored to meet your business needs.
             </p>
             <a href="#" class="button -md -outline-black text-black mt-32">
               All Services
@@ -194,7 +203,6 @@
         <div class="col-lg-7">
           <!-- row start -->
           <div class="row x-gap-72 y-gap-72 md:mt-48">
-
             @foreach ($services as $item)
               <div class="col-md-6">
                 <div class="ml-minus-4">
@@ -237,106 +245,65 @@
   <!-- services section end -->
 
   <!-- project section -->
-  <section>
-    <!-- container start -->
-    <div class="container-wide">
-      <div class="masonry -col-3 -gap-32 js-masonry js-masonry-no-filter"
-        style="position: relative; height: 1165.37px;">
-        <div class="masonry__sizer" style="position: absolute; left: 0px; top: 0px;"></div>
-
-        <div class="masonry__item " style="position: absolute; left: 0%; top: 0px;">
-          <div class="portfolioCard -type-2 -hover ratio">
-            <div class="portfolioCard__img">
-              <div class="portfolioCard__img__inner is-in-view" data-anim="img-right cover-dark-1">
-                <div class="bg-image js-lazy loaded" data-ll-status="loaded"
-                  style="background-image: url(&quot;img/projects/square/1.jpg&quot;);"></div>
-              </div>
+  <section class="layout-pt-md layout-pb-md">
+    <div class="section-filter">
+      <!-- container start -->
+      <div class="container">
+        <!-- row start -->
+        <div class="row y-gap-32 justify-content-between align-items-center">
+          <div class="col-auto">
+            <div class="filter-button-group text-dark fw-500">
+              <button class="button mr-20 btn-active" data-filter="*">Show All</button>
+              @foreach ($project_categories as $project_category)
+                <button class="button mr-20"
+                  data-filter=".{{ $project_category->tag }}">{{ $project_category->label }}</button>
+              @endforeach
             </div>
+          </div>
 
-            <div class="portfolioCard__content">
-              <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
-              <h3 class="portfolioCard__title text-2xl fw-600 text-white">Slumber</h3>
-            </div>
-
-            <a class="portfolioCard__link" data-barba="" href="portfolio-single-1.html"></a>
+          <div class="col-auto">
+            <a class="button -md -outline-black text-black" href="#">
+              See All Works
+            </a>
           </div>
         </div>
-
-        <div class="masonry__item  -long" style="position: absolute; left: 33.3331%; top: 0px;">
-          <div class="portfolioCard -type-2 -hover ratio">
-            <div class="portfolioCard__img">
-              <div class="portfolioCard__img__inner is-in-view" data-anim="img-right cover-dark-1">
-                <div class="bg-image js-lazy loaded" data-ll-status="loaded"
-                  style="background-image: url(&quot;img/projects/vertical/2.jpg&quot;);"></div>
-              </div>
-            </div>
-
-            <div class="portfolioCard__content">
-              <a href="#" class="portfolioCard__category text-light mb-8">Branding</a>
-              <h3 class="portfolioCard__title text-2xl fw-600 text-white">Apple Tonik</h3>
-            </div>
-
-            <a class="portfolioCard__link" data-barba="" href="portfolio-single-2.html"></a>
-          </div>
-        </div>
-
-        <div class="masonry__item " style="position: absolute; left: 66.6661%; top: 0px;">
-          <div class="portfolioCard -type-2 -hover ratio">
-            <div class="portfolioCard__img">
-              <div class="portfolioCard__img__inner is-in-view" data-anim="img-right cover-dark-1">
-                <div class="bg-image js-lazy loaded" data-ll-status="loaded"
-                  style="background-image: url(&quot;img/projects/square/3.jpg&quot;);"></div>
-              </div>
-            </div>
-
-            <div class="portfolioCard__content">
-              <a href="#" class="portfolioCard__category text-light mb-8">Development</a>
-              <h3 class="portfolioCard__title text-2xl fw-600 text-white">Black Sneakers</h3>
-            </div>
-
-            <a class="portfolioCard__link" data-barba="" href="portfolio-single-3.html"></a>
-          </div>
-        </div>
-
-        <div class="masonry__item " style="position: absolute; left: 0%; top: 582.687px;">
-          <div class="portfolioCard -type-2 -hover ratio">
-            <div class="portfolioCard__img">
-              <div class="portfolioCard__img__inner is-in-view" data-anim="img-right cover-dark-1">
-                <div class="bg-image js-lazy loaded" data-ll-status="loaded"
-                  style="background-image: url(&quot;img/projects/square/4.jpg&quot;);"></div>
-              </div>
-            </div>
-
-            <div class="portfolioCard__content">
-              <a href="#" class="portfolioCard__category text-light mb-8">Branding</a>
-              <h3 class="portfolioCard__title text-2xl fw-600 text-white">Steel Bottle</h3>
-            </div>
-
-            <a class="portfolioCard__link" data-barba="" href="portfolio-single-4.html"></a>
-          </div>
-        </div>
-
-        <div class="masonry__item " style="position: absolute; left: 66.6661%; top: 582.687px;">
-          <div class="portfolioCard -type-2 -hover ratio">
-            <div class="portfolioCard__img">
-              <div class="portfolioCard__img__inner is-in-view" data-anim="img-right cover-dark-1">
-                <div class="bg-image js-lazy loaded" data-ll-status="loaded"
-                  style="background-image: url(&quot;img/projects/square/5.jpg&quot;);"></div>
-              </div>
-            </div>
-
-            <div class="portfolioCard__content">
-              <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
-              <h3 class="portfolioCard__title text-2xl fw-600 text-white">Whisper Pink</h3>
-            </div>
-
-            <a class="portfolioCard__link" data-barba="" href="portfolio-single-5.html"></a>
-          </div>
-        </div>
-
+        <!-- row end -->
       </div>
+      <!-- container end -->
+
+
+      <!-- container start -->
+      <div class="container-wide layout-pt-sm">
+        <div class="masonry -col-4 -gap-32">
+          <div class="masonry__sizer"></div>
+          @foreach ($project_categories as $project_category)
+            @foreach ($project_category->projects as $project)
+              <div class="masonry__item {{ $project_category->tag }}">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="{{ $project->thumbnail }}"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#"
+                        class="portfolioCard__category text-light mb-8">{{ $project_category->label }}</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">{{ $project->name }}</h3>
+                    </div>
+
+                    <a href="portfolio-single-1.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+            @endforeach
+          @endforeach
+        </div>
+      </div>
+      <!-- container end -->
+
     </div>
-    <!-- container end -->
   </section>
   <!-- project section end -->
 

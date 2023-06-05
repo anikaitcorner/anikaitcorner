@@ -16,27 +16,27 @@ class ServiceSeeder extends Seeder
     {
         $services = [
             [
-                "name" => "Web Design",
-                "desc" => "Consider the vast of science and the doctrine of evolution. Every years beast.",
-                "slug" => "web-design",
+                "name" => "Web Development",
+                "desc" => "Transforming your vision into stunning websites with expert web services.",
+                "slug" => "web-development",
                 "icon" => "fa fa-linkedin",
             ],
             [
-                "name" => "Branding",
-                "desc" => "Consider the vast of science and the doctrine of evolution. Every years beast.",
+                "name" => "Digital Marketing",
+                "desc" => "Maximize your online reach with our strategic digital marketing solutions.",
                 "slug" => "branding",
                 "icon" => "fa fa-linkedin",
             ],
             [
                 "name" => "Mobile Apps",
-                "desc" => "Consider the vast of science and the doctrine of evolution. Every years beast.",
+                "desc" => "Crafting intuitive mobile experiences with our expert app development.",
                 "slug" => "mobile-apps",
                 "icon" => "fa fa-linkedin",
             ],
             [
-                "name" => "Motion",
-                "desc" => "Consider the vast of science and the doctrine of evolution. Every years beast.",
-                "slug" => "motion",
+                "name" => "Automate Solutions",
+                "desc" => "Streamline your workflows with our efficient automated solutions.",
+                "slug" => "automate-solutions",
                 "icon" => "fa fa-linkedin",
             ],
         ];
