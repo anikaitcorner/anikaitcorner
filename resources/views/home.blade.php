@@ -17,7 +17,7 @@
 
             <div class="slider__content  is-active  js-slider-content">
               <div data-split="lines">
-                <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+                <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle text__primary">
                   Root Over Flow
                 </p>
               </div>
@@ -29,7 +29,7 @@
               </div>
               <div class="slider__button overflow-hidden mt-32">
                 <div class="js-button py-4">
-                  <a href="{{ route('contact') }}" class="button -md -black text-white">
+                  <a href="{{ route('contact') }}" class="button -md -black text-white btn__primary">
                     get in touch
                   </a>
                 </div>
@@ -78,7 +78,7 @@
     <div class="ui-element -bottom-left sm:d-none js-ui">
       <button type="button" class="ui-element__scroll text-black js-ui-scroll-button">
         scroll down
-        <i class="icon" data-feather="arrow-down"></i>
+        <i class="icon text__primary" data-feather="arrow-down"></i>
       </button>
     </div>
     <!-- ui-element end -->
