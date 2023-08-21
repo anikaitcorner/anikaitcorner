@@ -67,13 +67,13 @@ class MenuItemSeeder extends Seeder
                 "icon" => "fa fa-instagram"
             ],
             [
-                "label" => "info@rof.com",
+                "label" => "contact@anikaitcorner.com",
                 "route" => null,
-                "slug" => "mailto:rof@rof.com",
+                "slug" => "mailto:contact@anikaitcorner.com",
                 "menu_id" => 3,
             ],
             [
-                "label" => "+880 1408-094722",
+                "label" => "+880 1887 567 230",
                 "route" => null,
                 "slug" => "#",
                 "menu_id" => 3,

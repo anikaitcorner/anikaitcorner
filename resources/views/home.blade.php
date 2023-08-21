@@ -22,7 +22,8 @@
               </div>
               <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
                 <h1 class="slider__title fw-700 leading-xs js-title">
-                  Digital Solutions Made Simple
+                  
+Modern IT & Tech Service Solutions
                 </h1>
               </div>
               <div class="slider__button overflow-hidden mt-32">
@@ -43,7 +44,7 @@
               <div class="swiper-slide overflow-hidden">
                 <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
                   <div data-parallax-target class="bg-image swiper-lazy js-image"
-                    data-background="img/headers/home-1-slider/1.jpg"></div>
+                    data-background="img/headers/hero_bg.jpg"></div>
                 </div>
 
                 <div class="slider__img__cover js-image-cover"></div>
@@ -89,86 +90,33 @@
       data-slider-col="base-16 lg-7 md-5 sm-3" data-pagination data-loop data-swiper-autoplay>
       <div class="swiper-wrapper"">
         <div class="swiper-slide">
-          <a class="tag-cloud-link">JavaScript</a>
+          <a class="tag-cloud-link">Web Development</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">jQuery</a>
+          <a class="tag-cloud-link">Software Development</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">Tailwind CSS</a>
+          <a class="tag-cloud-link">Mobile Apps Development</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">BootStrap</a>
+          <a class="tag-cloud-link">Technical Support</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">Reactjs</a>
+          <a class="tag-cloud-link">E-Commerce</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">Nextjs</a>
+          <a class="tag-cloud-link">Digital Marketing</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">TypeScript</a>
+          <a class="tag-cloud-link">SEO</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">Material UI</a>
+          <a class="tag-cloud-link">SmS Marketing</a>
         </div>
         <div class="swiper-slide">
-          <a class="tag-cloud-link">Redux</a>
+          <a class="tag-cloud-link">E-Mail Marketing</a>
         </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">React Context</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">JSON</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Rest API</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Mongoose</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Firebase</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">PHP</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Laravel</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Nodejs</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">MySQL</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Sanity.io</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Barbajs</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">GSAP</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Framer Motion</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">AI Tech</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Wordpress</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">PWA</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">React Native</a>
-        </div>
-        <div class="swiper-slide">
-          <a class="tag-cloud-link">Android Studio</a>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -185,13 +133,13 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="sectionHeading -md">
             <p class="sectionHeading__subtitle">
-              Services
+             Our Services
             </p>
             <h2 class="sectionHeading__title">
-              Passionate &amp; Flexible
+              Solutions &amp; Focus Areas
             </h2>
             <p class="mt-20">
-              Discover our diverse range of digital solutions tailored to meet your business needs.
+              The Anika IT Solutions team is entirely focused on meeting the information challenges of IT Solution & Services companies
             </p>
             <a href="#" class="button -md -outline-black text-black mt-32">
               All Services
@@ -320,7 +268,7 @@
             <div id="jarallax-container-0"
               style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
               <div data-parallax-target="" class="bg-image js-lazy loaded"
-                style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 951.5px; height: 772.55px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -208.775px; transform: translate3d(0px, 362.534px, 0px); background-image: url(&quot;img/backgrounds/1.jpg&quot;);"
+                style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 951.5px; height: 772.55px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -208.775px; transform: translate3d(0px, 362.534px, 0px); background-image: url(&quot;img/backgrounds/ceo.png&quot;);"
                 data-ll-status="loaded"></div>
             </div>
           </div>
