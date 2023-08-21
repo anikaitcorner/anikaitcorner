@@ -19,7 +19,8 @@ class DatabaseSeeder extends Seeder
             InfoSeeder::class,
             ServiceSeeder::class,
             ProjectCategorySeeder::class,
-            ProjectSeeder::class
+            ProjectSeeder::class,
+            BlogSeeder::class
         ]);
     }
 }

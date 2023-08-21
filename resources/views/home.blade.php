@@ -1,6 +1,7 @@
 <!-- data -->
 @php
   $project_categories = json_decode($project_categories);
+  $blogs = json_decode($blogs);
 @endphp
 
 @component('layouts.app')
@@ -22,8 +23,8 @@
               </div>
               <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
                 <h1 class="slider__title fw-700 leading-xs js-title">
-                  
-Modern IT & Tech Service Solutions
+
+                  Modern IT & Tech Service Solutions
                 </h1>
               </div>
               <div class="slider__button overflow-hidden mt-32">
@@ -116,7 +117,7 @@ Modern IT & Tech Service Solutions
         <div class="swiper-slide">
           <a class="tag-cloud-link">E-Mail Marketing</a>
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -133,13 +134,14 @@ Modern IT & Tech Service Solutions
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="sectionHeading -md">
             <p class="sectionHeading__subtitle">
-             Our Services
+              Our Services
             </p>
             <h2 class="sectionHeading__title">
               Solutions &amp; Focus Areas
             </h2>
             <p class="mt-20">
-              The Anika IT Solutions team is entirely focused on meeting the information challenges of IT Solution & Services companies
+              The Anika IT Solutions team is entirely focused on meeting the information challenges of IT Solution &
+              Services companies
             </p>
             <a href="#" class="button -md -outline-black text-black mt-32">
               All Services
@@ -171,8 +173,8 @@ Modern IT & Tech Service Solutions
                   <a data-barba="" href="services/{{ $item->slug }}" class="button -icon text-black">
                     Know More
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-arrow-right icon size-xs str-width-md">
                       <line x1="5" y1="12" x2="19" y2="12"></line>
                       <polyline points="12 5 19 12 12 19"></polyline>
                     </svg>
@@ -783,6 +785,80 @@ Modern IT & Tech Service Solutions
     <!-- container end -->
   </section>
   <!-- team section end -->
+
+  <!-- section start -->
+  <section class="layout-pt-lg layout-pb-lg">
+    <!-- container start -->
+    <div class="container">
+
+      <!-- row start -->
+      <div class="row justify-content-between align-items-end">
+        <div class="col-md-6">
+          <div class="sectionHeading -md">
+            <p class="sectionHeading__subtitle">
+              our journal
+            </p>
+            <h2 class="sectionHeading__title">
+              Latest news
+            </h2>
+          </div>
+        </div>
+
+        <div class="col-md-auto col-sm-12 sm:mt-24">
+          <a data-barba href="{{ route('blogs') }}" class="button -md -outline-black text-black">
+            view all
+          </a>
+        </div>
+      </div>
+      <!-- row end -->
+
+
+      <!-- row start -->
+      <div class="row x-gap-48 y-gap-40 layout-pt-sm">
+
+        @foreach ($blogs as $blog)
+          <div class="col-lg-4 col-md-6">
+            <div data-anim-wrap class="blogCard -type-1 -hover">
+              <a class="blogCard__img" data-barba href="{{ route('blog', $blog->slug) }}">
+                <div data-anim-child="img-right cover-dark-1 delay-1">
+                  <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="{{ $blog->thumbnail }}"></div>
+                </div>
+              </a>
+
+              <div class="blogCard__content mt-24">
+                <div data-anim-child="slide-up delay-6" class="blogCard__info text-dark leading-md text-sm">
+                  <a class="fw-400 mr-4" href="#">{{ $blog->tag }}</a> -
+                  <p class="d-inline-block ml-4">{{ $blog->created_at }}</p>
+                </div>
+
+                <div data-anim-child="slide-up delay-7">
+                  <h4 class="blogCard__title text-2xl leading-lg fw-500 mt-12">
+                    <a data-barba href="{{ route('blog', $blog->slug) }}">
+                      {{ $blog->title }}
+                    </a>
+                  </h4>
+                </div>
+
+
+                <div data-anim-child="slide-up delay-8" class="mt-12">
+                  <a data-barba href="{{ route('blog', $blog->slug) }}" class="button -icon text-black">
+                    Read More
+                    <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        @endforeach
+
+
+      </div>
+      <!-- row end -->
+
+    </div>
+    <!-- container end -->
+  </section>
+  <!-- section end -->
 
   <!-- client section -->
   <section class="layout-pt-md layout-pb-lg">

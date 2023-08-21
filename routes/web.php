@@ -4,6 +4,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PriceController;
+use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,4 +31,11 @@ Route::apiResource("/about", AboutController::class)->names([
 // contact routes
 Route::apiResource("/contact", ContactController::class)->names([
   "index" => "contact"
+]);
+
+
+Route::get("/blogs/{slug}", [BlogController::class, "show"])->name("blog");
+
+Route::apiResource("/blogs", BlogController::class)->names([
+  "index" => "blogs",
 ]);
