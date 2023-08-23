@@ -157,7 +157,7 @@
               <div class="col-md-6">
                 <div class="ml-minus-4">
                   <div class="d-flex align-items-center">
-                    <div class="px-20 py-20 bg-white shadow-light rounded-full">
+                    <div class="services__icon bg-white shadow-light rounded-full">
 
                       <i class="{{ $item->icon }}"></i>
                     </div>

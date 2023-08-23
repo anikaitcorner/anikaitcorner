@@ -1,5 +1,5 @@
-:root {
-    --primary-color: #e32b78;
+a:hover {
+    color: var(--accent-color) !important;
 }
 
 a.tag-cloud-link {
@@ -20,37 +20,65 @@ a.tag-cloud-link {
 }
 
 a.tag-cloud-link:hover {
-    color: white;
-    background-color: var(--primary-color);
+    color: white !important;
+    background-color: var(--accent-color);
 }
 
-.btn__primary {
+.button.-black {
     background: linear-gradient(45deg, #ac2468, #e32b78) !important;
     border: none !important;
 }
 
-.btn__primary:hover {
+.button.-black:hover {
     background: none !important;
     border: 1px solid #e32b78 !important;
-    color: #e32b78 !important;
+    color: var(--accent-color) !important;
 }
 
 .text__primary {
-    color: #e32b78 !important;
+    color: var(--accent-color) !important;
 }
 
 .slider__navs {
     opacity: 0 !important;
 }
 
+.button.-outline-black:hover {
+    background: linear-gradient(45deg, #ac2468, #e32b78) !important;
+    border: none !important;
+    color: white !important;
+}
 
+.button.-outline-black {
+    background: none !important;
+    border: 1px solid #e32b78 !important;
+    color: var(--accent-color) !important;
+}
+
+.sectionHeading__subtitle {
+    color: var(--accent-color) !important;
+}
+
+.services__icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ac2468, #e32b78) !important;
+    color: #fff;
+}
+
+.backButton__bg {
+    background: linear-gradient(45deg, #ac2468, #e32b78) !important;
+}
 
 /**Custom Font Size*/
-.font-24{
+.font-24 {
     font-size: 24px;
 }
 
-.service__icon{
+.service__icon {
     width: 70px;
     height: 70px;
     padding: 20px;

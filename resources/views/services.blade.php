@@ -26,7 +26,8 @@
         <div class="col-xl-6 col-lg-8 col-md-9">
           <div data-anim-child="slide-up delay-3" class="is-in-view">
             <p class="text-lg sm:text-base">
-              Empowering Businesses Through IT Solutions. From captivating web experiences to dynamic mobile apps, we're your partner for innovative digital solutions.
+              Empowering Businesses Through IT Solutions. From captivating web experiences to dynamic mobile apps, we're
+              your partner for innovative digital solutions.
             </p>
           </div>
         </div>
@@ -67,6 +68,34 @@
           <div data-anim="slide-up delay-5" class="is-in-view">
             <div class="d-flex ml-minus-4">
               <div class="service__icon">
+                <i class="fa-solid fa-terminal text__primary font-24"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl fw-500 mt-32">
+              Graphics Design
+            </h3>
+            <p class="mt-20">
+              Elevating your concepts with our skilled graphic design services, where creativity meets precision to craft
+              visually stunning and impactful solutions.
+            </p>
+            <div class="mt-24">
+              <a data-barba="" href="#" class="button -icon text-black">
+                Know More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-arrow-right icon size-xs str-width-md">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div data-anim="slide-up delay-5" class="is-in-view">
+            <div class="d-flex ml-minus-4">
+              <div class="service__icon">
                 <i class="fa-solid fa-bars-staggered font-24 text__primary"></i>
               </div>
             </div>
@@ -79,9 +108,9 @@
             <div class="mt-24">
               <a data-barba="" href="#" class="button -icon text-black">
                 Know More
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-arrow-right icon size-xs str-width-md">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                   <polyline points="12 5 19 12 12 19"></polyline>
                 </svg>
@@ -152,7 +181,7 @@
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
-             Digital Marketing
+              Digital Marketing
             </h3>
             <p class="mt-20">
               Elevating brands through comprehensive digital marketing solutions.
@@ -171,7 +200,7 @@
           </div>
         </div>
 
-        
+
 
         <div class="col-lg-4 col-md-6">
           <div data-anim="slide-up delay-5" class="is-in-view">
@@ -208,7 +237,7 @@
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
-             SEO
+              SEO
             </h3>
             <p class="mt-20">
               We offer comprehensive SEO support to boost your online visibility and rankings.
@@ -235,7 +264,7 @@
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
-             Email Marketing
+              Email Marketing
             </h3>
             <p class="mt-20">
               Elevate business through expert email marketing for effective audience engagement.
