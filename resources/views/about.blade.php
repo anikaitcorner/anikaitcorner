@@ -11,7 +11,7 @@
           <div class="col-lg-6 col-md-10">
             <div data-anim-child="slide-up" class="sectionHeading -sm is-in-view">
               <h1 class="sectionHeading__title">
-                14 years of successful projects and digital expertise that we can’t wait to share with you.
+                Let Us Be Your Partners Preferred IT Partner.
               </h1>
             </div>
           </div>
@@ -64,7 +64,7 @@
       <div class="row justify-content-center text-center">
         <div class="col-lg-7">
           <div class="sectionHeading -md">
-            <p class="sectionHeading__subtitle">
+            <p class="sectionHeading__subtitle text__primary">
               Professionals
             </p>
             <h2 class="sectionHeading__title">
@@ -97,7 +97,7 @@
                 Kieran Bowler
               </h4>
 
-              <p class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8">
+              <p class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8 ">
                 graphic designer
               </p>
 
