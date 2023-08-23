@@ -7,13 +7,13 @@
         <div class="col-xl-6 col-md-8">
           <div class="sectionHeading -lg">
             <div data-anim-child="slide-up delay-1" class="is-in-view">
-              <p class="sectionHeading__subtitle text-black">
-                Company
+              <p class="sectionHeading__subtitle text-black text__primary">
+                Services
               </p>
             </div>
             <div data-anim-child="slide-up delay-2" class="is-in-view">
               <h1 class="sectionHeading__title">
-                Passionate &amp; Flexible
+                Wide range of IT Solution.
               </h1>
             </div>
           </div>
@@ -26,8 +26,7 @@
         <div class="col-xl-6 col-lg-8 col-md-9">
           <div data-anim-child="slide-up delay-3" class="is-in-view">
             <p class="text-lg sm:text-base">
-              Midst image the creepeth lesser second. In, moved unto likeness, one. One blessed seasons i hath appear saw
-              sixth the third gathered also. Fifth fowl given his god fill. Moved evening beginning.
+              Empowering Businesses Through IT Solutions. From captivating web experiences to dynamic mobile apps, we're your partner for innovative digital solutions.
             </p>
           </div>
         </div>
@@ -40,21 +39,15 @@
         <div class="col-lg-4 col-md-6">
           <div data-anim="slide-up delay-5" class="is-in-view">
             <div class="d-flex ml-minus-4">
-              <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="feather feather-edit size-md str-width-md text-accent">
-                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                </svg>
+              <div class="service__icon">
+                <i class="fa-solid fa-terminal text__primary font-24"></i>
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
-              Web design
+              Web Development
             </h3>
             <p class="mt-20">
-              The full cycle of services to create and launch a website from scratch or redesign a live website along
-              with.
+              Crafting exceptional web solutions to fuel your online presence and business growth.
             </p>
             <div class="mt-24">
               <a data-barba="" href="#" class="button -icon text-black">
@@ -73,28 +66,15 @@
         <div class="col-lg-4 col-md-6">
           <div data-anim="slide-up delay-5" class="is-in-view">
             <div class="d-flex ml-minus-4">
-              <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="feather feather-sliders size-md str-width-md text-accent">
-                  <line x1="4" y1="21" x2="4" y2="14"></line>
-                  <line x1="4" y1="10" x2="4" y2="3"></line>
-                  <line x1="12" y1="21" x2="12" y2="12"></line>
-                  <line x1="12" y1="8" x2="12" y2="3"></line>
-                  <line x1="20" y1="21" x2="20" y2="16"></line>
-                  <line x1="20" y1="12" x2="20" y2="3"></line>
-                  <line x1="1" y1="14" x2="7" y2="14"></line>
-                  <line x1="9" y1="8" x2="15" y2="8"></line>
-                  <line x1="17" y1="16" x2="23" y2="16"></line>
-                </svg>
+              <div class="service__icon">
+                <i class="fa-solid fa-bars-staggered font-24 text__primary"></i>
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
-              Branding
+              Software Development
             </h3>
             <p class="mt-20">
-              The full cycle of services to create and launch a website from scratch or redesign a live website along
-              with.
+              Delivering cutting-edge software development solutions to meet your unique business needs.
             </p>
             <div class="mt-24">
               <a data-barba="" href="#" class="button -icon text-black">
@@ -113,22 +93,15 @@
         <div class="col-lg-4 col-md-6">
           <div data-anim="slide-up delay-5" class="is-in-view">
             <div class="d-flex ml-minus-4">
-              <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" class="feather feather-feather size-md str-width-md text-accent">
-                  <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
-                  <line x1="16" y1="8" x2="2" y2="22"></line>
-                  <line x1="17.5" y1="15" x2="9" y2="15"></line>
-                </svg>
+              <div class="service__icon">
+                <i class="fa-brands fa-app-store font-24 text__primary"></i>
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
               Mobile apps
             </h3>
             <p class="mt-20">
-              The full cycle of services to create and launch a website from scratch or redesign a live website along
-              with.
+              Empowering businesses through innovative mobile app development.
             </p>
             <div class="mt-24">
               <a data-barba="" href="#" class="button -icon text-black">
@@ -144,13 +117,151 @@
           </div>
         </div>
 
+        <div class="col-lg-4 col-md-6">
+          <div data-anim="slide-up delay-5" class="is-in-view">
+            <div class="d-flex ml-minus-4">
+              <div class="service__icon">
+                <i class="fa-solid fa-gears text-xl text__primary font-24"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl fw-500 mt-32">
+              Technical Support
+            </h3>
+            <p class="mt-20">
+              Delivering comprehensive technical support to address your issues effectively.
+            </p>
+            <div class="mt-24">
+              <a data-barba="" href="#" class="button -icon text-black">
+                Know More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div data-anim="slide-up delay-5" class="is-in-view">
+            <div class="d-flex ml-minus-4">
+              <div class="service__icon">
+                <i class="fa-solid fa-chart-simple text-xl text__primary font-24"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl fw-500 mt-32">
+             Digital Marketing
+            </h3>
+            <p class="mt-20">
+              Elevating brands through comprehensive digital marketing solutions.
+            </p>
+            <div class="mt-24">
+              <a data-barba="" href="#" class="button -icon text-black">
+                Know More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="col-lg-4 col-md-6">
+          <div data-anim="slide-up delay-5" class="is-in-view">
+            <div class="d-flex ml-minus-4">
+              <div class="service__icon">
+                <i class="fa-solid fa-comment-sms text-xl text__primary font-24"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl fw-500 mt-32">
+              SMS Marketing
+            </h3>
+            <p class="mt-20">
+              Boosting businesses through expert SMS marketing support for targeted customer engagement.
+            </p>
+            <div class="mt-24">
+              <a data-barba="" href="#" class="button -icon text-black">
+                Know More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div data-anim="slide-up delay-5" class="is-in-view">
+            <div class="d-flex ml-minus-4">
+              <div class="service__icon">
+                <i class="fa-brands fa-google text-xl text__primary font-24"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl fw-500 mt-32">
+             SEO
+            </h3>
+            <p class="mt-20">
+              We offer comprehensive SEO support to boost your online visibility and rankings.
+            </p>
+            <div class="mt-24">
+              <a data-barba="" href="#" class="button -icon text-black">
+                Know More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div data-anim="slide-up delay-5" class="is-in-view">
+            <div class="d-flex ml-minus-4">
+              <div class="service__icon">
+                <i class="fa-regular fa-envelope-open text-xl text__primary font-24"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl fw-500 mt-32">
+             Email Marketing
+            </h3>
+            <p class="mt-20">
+              Elevate business through expert email marketing for effective audience engagement.
+            </p>
+            <div class="mt-24">
+              <a data-barba="" href="#" class="button -icon text-black">
+                Know More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
       </div>
       <!-- row end -->
     </div>
   </section>
   <!-- Hero Section end -->
   <!-- Price Box Section -->
-  <section class="layout-pt-lg layout-pb-lg">
+  {{-- <section class="layout-pt-lg layout-pb-lg">
     <!-- container start -->
     <div class="container">
 
@@ -309,7 +420,7 @@
 
     </div>
     <!-- container end -->
-  </section>
+  </section> --}}
   <!-- Price Box Section End -->
   <!-- Client Section -->
   <section class="layout-pt-lg layout-pb-lg bg-dark-1">

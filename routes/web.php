@@ -3,8 +3,8 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\PriceController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,8 +21,8 @@ use Illuminate\Support\Facades\Route;
 // home routes
 Route::get('/', [HomeController::class, "index"])->name("home");
 // price routes
-Route::apiResource("/price", PriceController::class)->names([
-  "index" => "price"
+Route::apiResource("/services", ServiceController::class)->names([
+  "index" => "services"
 ]);
 // about routes
 Route::apiResource("/about", AboutController::class)->names([
@@ -39,3 +39,5 @@ Route::get("/blogs/{slug}", [BlogController::class, "show"])->name("blog");
 Route::apiResource("/blogs", BlogController::class)->names([
   "index" => "blogs",
 ]);
+
+Route::post("/mail",[ContactController::class,"sendMail"])->name('mail');

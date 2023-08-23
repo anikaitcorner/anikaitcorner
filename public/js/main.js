@@ -2188,11 +2188,29 @@ function contactForm() {
           }
         }, 400);
       };
+
+      function getMeta(metaName) {
+        const metas = document.getElementsByTagName('meta');
+      
+        for (let i = 0; i < metas.length; i++) {
+          if (metas[i].getAttribute('name') === metaName) {
+            return metas[i].getAttribute('content');
+          }
+        }
+      
+        return '';
+      }
+      
+      const csrfToken=getMeta('csrf-token');
+
   
-      request.open("POST", "contact.php", true);
+      request.open("POST", "/mail", true);
       request.setRequestHeader(
         "Content-type",
         "application/x-www-form-urlencoded",
+        'X-CSRF-TOKEN',csrfToken
+      
+        
       );
       request.send(requestData);
     }, 1000);

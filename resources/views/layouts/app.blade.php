@@ -37,8 +37,9 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-  <title>Stukram</title>
+  <title>Anika IT Corner</title>
 </head>
 
 <body class="preloader-visible" data-barba="wrapper">
@@ -92,6 +93,7 @@
   <!-- JavaScript -->
   <script src="js/vendors.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/d6cfda64fd.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

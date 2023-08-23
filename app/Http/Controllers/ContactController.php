@@ -16,6 +16,12 @@ class ContactController extends Controller
         return view("contact");
     }
 
+    public function sendMail(\Request $req){
+        dd($req);
+
+        return response()->json(["mail"=>"send"]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */

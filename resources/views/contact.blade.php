@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-xl-9 offset-xl-1 col-lg-11">
           <div data-anim-child="slide-up delay-1" class="sectionHeading -lg is-in-view">
-            <p class="sectionHeading__subtitle">
+            <p class="sectionHeading__subtitle text__primary">
               Hire Us
             </p>
             <h1 class="sectionHeading__title leading-sm">
@@ -29,7 +29,7 @@
                 Address
               </h4>
               <div class="text-dark mt-12">
-                <p>Studio Stukram 1910 Gateway Road, Portland, Oregon 97230</p>
+                <p>Sheikh Hasina Software & Technology Park, Jashore</p>
               </div>
             </div>
 
@@ -39,10 +39,10 @@
               </h4>
               <div class="text-dark mt-12">
                 <div>
-                  <a class="button -underline" href="#">hello@stukram.com</a>
+                  <a class="button -underline" href="mailto:contact@anikaitcorner.com">contact@anikaitcorner.com</a>
                 </div>
                 <div class="mt-4">
-                  <a class="button -underline" href="#">+1 202 555 0171</a>
+                  <a class="button -underline" href="tel:+8801887567230">+880 1887 567 230</a>
                 </div>
               </div>
             </div>
@@ -103,9 +103,11 @@
 
         <div class="col-xl-10 mt-48 sm:mt-32">
           <div class="contact-form -type-1">
-            <form class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="contact.php"
+            <form id="mail" class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="contact.php"
               data-message-success="Your message has been sent! We will reply you as soon as possible."
-              data-message-error="Something went wrong. Please contact us directly at <a href='hello@stukram.com'>hello@stukram.com</a>.">
+              data-message-error="Something went wrong. Please contact us directly at <a href='mailto:contact@anikaitcorner.com'>contact@anikaitcorner.com</a>.">
+              
+              @csrf
               <div class="col-lg-6">
                 <label class="js-input-group">
                   Name

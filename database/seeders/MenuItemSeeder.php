@@ -21,9 +21,9 @@ class MenuItemSeeder extends Seeder
                 "menu_id" => 1,
             ],
             [
-                "label" => "Pricing",
-                "route" => "price",
-                "slug" => "/price",
+                "label" => "Services",
+                "route" => "services",
+                "slug" => "/services",
                 "menu_id" => 1,
             ],
             [
@@ -50,15 +50,15 @@ class MenuItemSeeder extends Seeder
                 "route" => null,
                 "slug" => "#",
                 "menu_id" => 2,
-                "icon" => "fa fa-twitter"
+                "icon" => "fa-brands fa-x-twitter"
             ],
-            [
-                "label" => "Youtube",
-                "route" => null,
-                "slug" => "#",
-                "menu_id" => 2,
-                "icon" => "fa fa-youtube-play"
-            ],
+            // [
+            //     "label" => "Youtube",
+            //     "route" => null,
+            //     "slug" => "#",
+            //     "menu_id" => 2,
+            //     "icon" => "fa fa-youtube-play"
+            // ],
             [
                 "label" => "Instagram",
                 "route" => null,
