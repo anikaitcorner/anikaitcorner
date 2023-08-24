@@ -2354,8 +2354,8 @@ h6 {
 }
 .nav__content__right {
     position: relative;
-    flex: 0 0 21%;
-    max-width: 21%;
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 @media (max-width: 1280px) {
@@ -3354,7 +3354,7 @@ body.is-cursor-active * {
 }
 .cursor__follower {
     position: absolute;
-    background-color: #888888;
+    background-color: var(--accent-color);
     opacity: 0.25;
     border-radius: 100%;
     width: 1.5rem;
@@ -3429,7 +3429,7 @@ body.is-cursor-active * {
     opacity: 0.25;
 }
 .cursor.is-active.has-label .cursor__follower {
-    background-color: black;
+    background-color: var(--accent-color);
     opacity: 0.8;
 }
 .cursor.is-active.has-label .cursor__label {

@@ -89,3 +89,9 @@ a.tag-cloud-link:hover {
     border-radius: 50%;
     background-color: white;
 }
+
+
+.hide {
+    opacity: 0 !important;
+    visibility: hidden;
+}
