@@ -28,7 +28,6 @@ class HomeController extends Controller
         // get home blogs
         $blogs = new BlogCollection(Blog::latest()->take(3)->get());
         $blogs = json_encode($blogs);
-
         return view("home")->with(["services" => $services, "project_categories" => $project_categories, "blogs" => $blogs]);
     }
 }

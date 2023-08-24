@@ -555,11 +555,11 @@
 
             <div class="teamCard__content text-center mt-24">
               <h4 class="teamCard__title text-2xl fw-500">
-                Kieran Bowler
+                Sefat Ullah Zayed
               </h4>
 
               <p class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8">
-                graphic designer
+                HR & Administration Manager
               </p>
 
               <div class="teamCard__social justify-content-center mt-12">
@@ -594,27 +594,27 @@
 
             <div class="teamCard__content text-center mt-24">
               <h4 class="teamCard__title text-2xl fw-500">
-                Nelly Preston
+                Mahadi Hasan
               </h4>
 
               <p class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8">
-                senior designer
+                Project Manager
               </p>
 
               <div class="teamCard__social justify-content-center mt-12">
                 <div class="teamCard__social__item">
-                  <a class="text-black" href="#">
-                    <i class="fa fa-twitter"></i>
+                  <a class="text-black" target="_blank" href="https://github.com/mahadidev">
+                    <i class="fa fa-github"></i>
                   </a>
                 </div>
                 <div class="teamCard__social__item">
-                  <a class="text-black" href="#">
+                  <a class="text-black" target="_blank" href="https://web.facebook.com/mrakuji">
                     <i class="fa fa-facebook-f"></i>
                   </a>
                 </div>
                 <div class="teamCard__social__item">
-                  <a class="text-black" href="#">
-                    <i class="fa fa-linkedin"></i>
+                  <a class="text-black" target="_blank" href="https://mahadi.dev/">
+                    <i class="fa fa-globe"></i>
                   </a>
                 </div>
               </div>
@@ -633,26 +633,26 @@
 
             <div class="teamCard__content text-center mt-24">
               <h4 class="teamCard__title text-2xl fw-500">
-                Teodor Mora
+                Borhan Uddin
               </h4>
 
               <p class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8">
-                lead developer
+                Fullstack developer
               </p>
 
               <div class="teamCard__social justify-content-center mt-12">
                 <div class="teamCard__social__item">
-                  <a class="text-black" href="#">
-                    <i class="fa fa-twitter"></i>
+                  <a class="text-black" target="_blank" href="https://github.com/codernex">
+                    <i class="fa fa-github"></i>
                   </a>
                 </div>
                 <div class="teamCard__social__item">
-                  <a class="text-black" href="#">
+                  <a class="text-black" target="_blank" href="https://facebook.com/borhan.webdev">
                     <i class="fa fa-facebook-f"></i>
                   </a>
                 </div>
                 <div class="teamCard__social__item">
-                  <a class="text-black" href="#">
+                  <a class="text-black" target="_blank" href="https://linkedin.com/in/codernex">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </div>

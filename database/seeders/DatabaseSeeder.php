@@ -20,7 +20,8 @@ class DatabaseSeeder extends Seeder
             ServiceSeeder::class,
             ProjectCategorySeeder::class,
             ProjectSeeder::class,
-            BlogSeeder::class
+            BlogSeeder::class,
+            TeamSeeder::class
         ]);
     }
 }
