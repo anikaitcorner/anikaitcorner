@@ -39,7 +39,7 @@
           </button>
 
           <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
-            <i class="icon" data-feather="x"></i>
+            Close
           </button>
         </div>
 
