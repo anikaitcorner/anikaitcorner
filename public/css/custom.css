@@ -105,3 +105,23 @@ a.tag-cloud-link:hover {
     filter: drop-shadow(2px 2px 5px rgba(0,0,0,.5));
     color: var(--accent-color);
 }
+
+/**
+** Hide On Mobile Devices
+
+**/
+.mobile-show{
+    display: none;
+}
+
+@media (max-width:767px){
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-show{
+        display: block;
+    }
+}
+

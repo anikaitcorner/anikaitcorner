@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ServiceCollection;
 use App\Models\Service;
 use App\Http\Requests\StoreServiceRequest;
 use App\Http\Requests\UpdateServiceRequest;
@@ -13,7 +14,10 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        return view("services");
+        $services = new ServiceCollection(Service::all());
+        return view("services",[
+            "services"=>$services
+        ]);
         //
     }
 

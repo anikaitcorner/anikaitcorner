@@ -17,19 +17,19 @@ class ServiceSeeder extends Seeder
         $services = [
             [
                 "name" => "Web Development",
-                "desc" => "Crafting exceptional web solutions to fuel your online presence and business growth.",
+                "desc" => "Crafting responsive, intuitive websites to boost your online business presence.",
                 "slug" => "web-development",
                 "icon" => "fa-solid fa-terminal",
             ],
             [
                 "name" => "Digital Marketing",
-                "desc" => " Elevating brands through comprehensive digital marketing solutions.",
+                "desc" => "Enhancing brand visibility with bespoke, data-led digital marketing solutions.",
                 "slug" => "branding",
                 "icon" => "fa-solid fa-chart-simple",
             ],
             [
                 "name" => "Graphics Design",
-                "desc" => "Elevating your concepts with our skilled graphic design services, where creativity meets precision to craft visually stunning and impactful solutions.",
+                "desc" => "Creating innovative, compelling visuals to elevate your brand's impact.",
                 "slug" => "mobile-apps",
                 "icon" => "fa-solid fa-pen-nib",
             ],
