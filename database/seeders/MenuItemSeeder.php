@@ -67,9 +67,9 @@ class MenuItemSeeder extends Seeder
                 "icon" => "fa fa-instagram"
             ],
             [
-                "label" => "contact@anikaitcorner.com",
+                "label" => "anikaitcorner@gmail.com",
                 "route" => null,
-                "slug" => "mailto:contact@anikaitcorner.com",
+                "slug" => "mailto:anikaitcorner@gmail.com",
                 "menu_id" => 3,
             ],
             [

@@ -143,7 +143,7 @@
               The Anika IT Solutions team is entirely focused on meeting the information challenges of IT Solution &
               Services companies
             </p>
-            <a href="#" class="button -md -outline-black text-black mt-32">
+            <a href="/services" class="button -md -outline-black text-black mt-32">
               All Services
             </a>
           </div>
@@ -211,7 +211,7 @@
             </div>
           </div>
 
-          <div class="col-auto">
+          <div class="col-auto hide">
             <a class="button -md -outline-black text-black" href="#">
               See All Works
             </a>

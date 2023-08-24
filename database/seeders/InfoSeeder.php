@@ -14,9 +14,9 @@ class InfoSeeder extends Seeder
     public function run(): void
     {
         $info = [
-            "address" => "Sheikh Hasina Software & Technology Park, Jashore",
+            "address" => "Level-6,Sheikh Hasina Software & Technology Park, Jashore",
             "nav_logo" => "/img/logo/logo.png",
-            "footer_logo" => "/img/logo/logo.png",
+            "footer_logo" => "/img/logo/footer-logo.png",
             "copyright" => "@ 2023, Anika IT Corner"
         ];
 

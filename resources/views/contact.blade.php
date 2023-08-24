@@ -29,7 +29,7 @@
                 Address
               </h4>
               <div class="text-dark mt-12">
-                <p>Sheikh Hasina Software & Technology Park, Jashore</p>
+                <p>Level-6, Sheikh Hasina Software & Technology Park, Jashore</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@
               </h4>
               <div class="text-dark mt-12">
                 <div>
-                  <a class="button -underline" href="mailto:contact@anikaitcorner.com">contact@anikaitcorner.com</a>
+                  <a class="button -underline" href="mailto:contact@anikaitcorner.com">anikaitcorner@gmail.com</a>
                 </div>
                 <div class="mt-4">
                   <a class="button -underline" href="tel:+8801887567230">+880 1887 567 230</a>
@@ -105,7 +105,7 @@
           <div class="contact-form -type-1">
             <form id="mail" class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="contact.php"
               data-message-success="Your message has been sent! We will reply you as soon as possible."
-              data-message-error="Something went wrong. Please contact us directly at <a href='mailto:contact@anikaitcorner.com'>contact@anikaitcorner.com</a>.">
+              data-message-error="Something went wrong. Please contact us directly at <a href='mailto:anikaitcorner@gmail.com'>anikaitcorner@gmail.com</a>.">
               
               @csrf
               <div class="col-lg-6">
