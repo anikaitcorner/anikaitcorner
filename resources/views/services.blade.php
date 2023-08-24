@@ -37,18 +37,20 @@
       <!-- row start -->
       <div class="row x-gap-60 y-gap-60 layout-pt-md">
 
+        @foreach($services as $service)
+
         <div class="col-lg-4 col-md-6">
           <div data-anim="slide-up delay-5" class="is-in-view">
             <div class="d-flex ml-minus-4">
               <div class="service__icon">
-                <i class="fa-solid fa-terminal text__primary font-24"></i>
+                <i class="{{$service->icon}} text__primary font-24"></i>
               </div>
             </div>
             <h3 class="text-2xl fw-500 mt-32">
-              Web Development
+              {{$service->name}}
             </h3>
             <p class="mt-20">
-              Crafting exceptional web solutions to fuel your online presence and business growth.
+              {{$service->desc}}
             </p>
             <div class="mt-24">
               <a data-barba="" href="#" class="button -icon text-black">
@@ -63,99 +65,7 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div data-anim="slide-up delay-5" class="is-in-view">
-            <div class="d-flex ml-minus-4">
-              <div class="service__icon">
-                <i class="fa-solid fa-terminal text__primary font-24"></i>
-              </div>
-            </div>
-            <h3 class="text-2xl fw-500 mt-32">
-              Graphics Design
-            </h3>
-            <p class="mt-20">
-              Elevating your concepts with our skilled graphic design services, where creativity meets precision to craft
-              visually stunning and impactful solutions.
-            </p>
-            <div class="mt-24">
-              <a data-barba="" href="#" class="button -icon text-black">
-                Know More
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="feather feather-arrow-right icon size-xs str-width-md">
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                  <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
-        
-
-        <div class="col-lg-4 col-md-6">
-          <div data-anim="slide-up delay-5" class="is-in-view">
-            <div class="d-flex ml-minus-4">
-              <div class="service__icon">
-                <i class="fa-solid fa-gears text-xl text__primary font-24"></i>
-              </div>
-            </div>
-            <h3 class="text-2xl fw-500 mt-32">
-              Technical Support
-            </h3>
-            <p class="mt-20">
-              Delivering comprehensive technical support to address your issues effectively.
-            </p>
-            <div class="mt-24">
-              <a data-barba="" href="#" class="button -icon text-black">
-                Know More
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                  <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div data-anim="slide-up delay-5" class="is-in-view">
-            <div class="d-flex ml-minus-4">
-              <div class="service__icon">
-                <i class="fa-solid fa-chart-simple text-xl text__primary font-24"></i>
-              </div>
-            </div>
-            <h3 class="text-2xl fw-500 mt-32">
-              Digital Marketing
-            </h3>
-            <p class="mt-20">
-              Elevating brands through comprehensive digital marketing solutions.
-            </p>
-            <div class="mt-24">
-              <a data-barba="" href="#" class="button -icon text-black">
-                Know More
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md">
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                  <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
-
-       
-
-        
-
-        
+        @endforeach
 
 
       </div>
@@ -326,7 +236,7 @@
   </section> --}}
   <!-- Price Box Section End -->
   <!-- Client Section -->
-  <section class="layout-pt-lg layout-pb-lg bg-dark-1">
+  {{-- <section class="layout-pt-lg layout-pb-lg bg-dark-1">
     <!-- container start -->
     <div class="container">
       <!-- row start -->
@@ -456,6 +366,6 @@
       <!-- row end -->
     </div>
     <!-- container end -->
-  </section>
+  </section> --}}
   <!-- Client Section End -->
 @endcomponent

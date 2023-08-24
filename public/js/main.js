@@ -105,6 +105,8 @@ function initComponents() {
   mainSlider2Init();
   MainSlider3.init();
   sectionSlidersInit();
+
+  teamSlider()
   
   masonryFilterInit();
   masonryGridInit();
@@ -1750,12 +1752,55 @@ function splitTextIntoLines() {
 
 function mainSlider1Init() {
 
-  const slider = document.querySelector('.js-sliderMain-type-1');
+  const slider = document.querySelector('.slider-team');
 
   if (!slider) return;
 
   const nav = slider.querySelector('.js-slider-nav');
   let current = 0;
+
+  new Swiper (slider, {
+    spaceBetween: 0,
+    speed: 1000,
+    parallax: true,
+    grabCursor: true,
+    allowTouchMove: true,
+    touchMoveStopPropagation: true,
+    autoplay:true,
+    loop: true,
+
+    lazy: {
+      loadPrevNext: true,
+    },
+
+    breakpoints: {
+      575: {
+        parallax: false,
+      },
+    },
+  
+    // navigation: {
+    //   prevEl: nav.querySelector('.js-prev'),
+    //   nextEl: nav.querySelector('.js-next'),
+    // },
+  });
+
+}
+
+
+function teamSlider() {
+
+  const slider = document.querySelector('.js-slider-team');
+
+  console.log(slider);
+
+  if (!slider) return;
+
+  const nav = slider.querySelector('.js-slider-nav-team');
+  let current = 0;
+
+
+  console.log(nav.querySelector('.team-prev'));
 
   const sliderInstance = new Swiper (slider, {
     spaceBetween: 0,
@@ -1776,8 +1821,8 @@ function mainSlider1Init() {
     },
   
     navigation: {
-      prevEl: nav.querySelector('.js-prev'),
-      nextEl: nav.querySelector('.js-next'),
+      prevEl: nav.querySelector('.team-prev'),
+      nextEl: nav.querySelector('.team-next'),
     },
   });
 
