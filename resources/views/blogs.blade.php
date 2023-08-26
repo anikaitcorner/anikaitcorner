@@ -9,6 +9,8 @@
   $blog_tags = array_unique($blog_tags);
 @endphp
 
+@section('title',"Blog")
+
 @component('layouts.app')
   <!-- section start -->
   <section class="layout-pt-xl layout-pb-md">

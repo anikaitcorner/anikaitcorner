@@ -1,6 +1,12 @@
 @php
   $blog = json_decode($blog);
+
+  $desc=$blog->short_description ;
+
 @endphp
+
+@section("description","{{$desc}}")
+
 @component('layouts.app')
   <!-- section start -->
   <section class="masthead -blog js-masthead-blog-article" data-parallax="0.7">

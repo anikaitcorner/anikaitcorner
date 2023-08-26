@@ -107,6 +107,7 @@ function initComponents() {
   sectionSlidersInit();
 
   teamSlider()
+  clientSlider()
   
   masonryFilterInit();
   masonryGridInit();
@@ -1752,7 +1753,7 @@ function splitTextIntoLines() {
 
 function mainSlider1Init() {
 
-  const slider = document.querySelector('.slider-team');
+  const slider = document.querySelector('.js-sliderMain-type-1');
 
   if (!slider) return;
 
@@ -1766,8 +1767,7 @@ function mainSlider1Init() {
     grabCursor: true,
     allowTouchMove: true,
     touchMoveStopPropagation: true,
-    autoplay:true,
-    loop: true,
+   
 
     lazy: {
       loadPrevNext: true,
@@ -1790,25 +1790,23 @@ function mainSlider1Init() {
 
 function teamSlider() {
 
-  const slider = document.querySelector('.js-slider-team');
+  const slider = document.querySelector('.slider-team');
 
   console.log(slider);
 
   if (!slider) return;
 
-  const nav = slider.querySelector('.js-slider-nav-team');
-  let current = 0;
-
-
-  console.log(nav.querySelector('.team-prev'));
-
-  const sliderInstance = new Swiper (slider, {
-    spaceBetween: 0,
+new Swiper (slider, {
     speed: 1000,
     parallax: true,
     grabCursor: true,
     allowTouchMove: true,
     touchMoveStopPropagation: true,
+    fill:"column",
+    crossFade:true,
+    autoPlay:true,
+    loop:true,
+    slidesPerView: 1,
 
     lazy: {
       loadPrevNext: true,
@@ -1819,13 +1817,28 @@ function teamSlider() {
         parallax: false,
       },
     },
-  
-    navigation: {
-      prevEl: nav.querySelector('.team-prev'),
-      nextEl: nav.querySelector('.team-next'),
-    },
+
   });
 
+}
+
+function clientSlider() {
+  const slider= document.querySelector('.slider-client')
+
+  if(!slider) return;
+
+  new Swiper(slider,{
+    speed: 1000,
+    parallax: true,
+    grabCursor: true,
+    allowTouchMove: true,
+    touchMoveStopPropagation: true,
+    spaceBetween: 30,
+    autoPlay:true,
+    loop:true,
+    slidesPerView: 1,
+   
+  })
 }
 
 
