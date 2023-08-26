@@ -1,3 +1,5 @@
+
+@section("title","About Us")
 @component('layouts.app')
   <!-- Hero Section -->
   <section class="layout-pt-2xl layout-pb-md">

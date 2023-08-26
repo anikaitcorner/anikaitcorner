@@ -1,3 +1,4 @@
+@section("title","Services")
 @component('layouts.app')
   <!-- Hero Section -->
   <section data-anim-wrap="" class="layout-pt-xl layout-pb-lg animated">

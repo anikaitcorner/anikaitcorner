@@ -38,8 +38,9 @@
   <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <meta name="csrf-token" content="{{ csrf_token() }}" />
+  <meta name="description" content="@yield("description")">
 
-  <title>Anika IT Corner</title>
+  <title>Anika IT Corner | @yield('title')</title>
 </head>
 
 <body class="preloader-visible" data-barba="wrapper">
