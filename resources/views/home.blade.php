@@ -210,7 +210,7 @@
                         <div id="jarallax-container-0"
                             style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
                             <div data-parallax-target="" class="bg-image js-lazy loaded"
-                                style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 951.5px; height: 772.55px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -208.775px; transform: translate3d(0px, 362.534px, 0px); background-image: url(&quot;img/backgrounds/ceo.png&quot;);"
+                                style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 951.5px; height: 772.55px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -208.775px; transform: translate3d(0px, 362.534px, 0px); background-image: url(&quot;img/backgrounds/ceo.jpg&quot;);"
                                 data-ll-status="loaded"></div>
                         </div>
                     </div>
