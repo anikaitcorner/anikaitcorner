@@ -488,7 +488,7 @@
 
 
       <!-- row start -->
-      <x-desktop-team />
+      <x-desktop-team class="mobile-hide" />
       {{-- Mobile Team Section --}}
 
       <x-mobile-team />
