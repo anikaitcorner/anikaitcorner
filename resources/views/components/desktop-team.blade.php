@@ -1,5 +1,6 @@
- <div class="row x-gap-48 y-gap-48 layout-pt-md mobile-hide">
+ <div  {{$attributes->merge(["class"=>"row x-gap-48 y-gap-48 layout-pt-md "])}}>
 
+    
     <div class="col-lg-4 col-sm-6">
         <div data-anim="slide-up" class="teamCard is-in-view">
             <div class="teamCard__img">
