@@ -1,5 +1,4 @@
-
-@section("title","About Us")
+@section('title', 'About Us')
 @component('layouts.app')
   <!-- Hero Section -->
   <section class="layout-pt-2xl layout-pb-md">
@@ -46,7 +45,7 @@
           <div id="jarallax-container-0"
             style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
             <div data-parallax-target="" class="bg-image js-lazy loaded"
-              style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 1712.72px; height: 804.203px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 62.3984px; transform: translate3d(0px, -223.423px, 0px); background-image: url(&quot;img/backgrounds/4.jpg&quot;);"
+              style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 1712.72px; height: 804.203px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 62.3984px; transform: translate3d(0px, -223.423px, 0px); background-image: url(&quot;img/home_team.jpg&quot;);"
               data-ll-status="loaded"></div>
           </div>
         </div>
@@ -359,7 +358,7 @@
     <div id="jarallax-container-1"
       style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
       <div data-parallax-target="" class="overlay-black-md bg-image js-lazy loaded"
-        style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 1903px; height: 662.103px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 133.448px; transform: translate3d(0px, -167.709px, 0px); background-image: url(&quot;img/backgrounds/3.jpg&quot;);"
+        style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 1903px; height: 662.103px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 133.448px; transform: translate3d(0px, -167.709px, 0px); background-image: url(&quot;img/team_banner.jpg&quot;);"
         data-ll-status="loaded"></div>
     </div>
   </section>
